@@ -13,7 +13,7 @@ function Navbar() {
     const verifyUser = async () => {
       try {
         const res = await axios.post(
-          "https://zerodhabackend-m6gu.onrender.com/api/auth/verify",
+          "https://stock-trading-platform-ckbr.onrender.com/api/auth/verify",
           {},
           { withCredentials: true }
         );

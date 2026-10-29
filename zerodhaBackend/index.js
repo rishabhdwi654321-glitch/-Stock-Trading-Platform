@@ -26,7 +26,7 @@ app.use(cors({
     "http://localhost:3001", 
     "http://localhost:3000",
     "https://zerodhafrontend-cg69.onrender.com",
-    "https://zerodhadashboard-6p87.onrender.com"  // 👈 ye add karo
+    "https://stock-trading-platform-1-4991.onrender.com"  // 👈 ye add karo
   ],
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
