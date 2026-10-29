@@ -211,6 +211,10 @@ app.use("/api/auth", authRoute);
 
 // })
 
+app.get("/", (req, res) => {
+    res.send("hi")
+})
+
 app.get("/allHoldings", async (req, res) => {
     let allHoldings = await HoldingsModel.find({});
     res.json(allHoldings);  // ye islye hai kyki jab mogoose se data hai to usme kuch unwanted chheze hoti .json unko hta kar js object banata hsai or phir ik string me convert karke use react bhejta hai   
@@ -256,9 +260,7 @@ app.post("/sellOrder", async (req, res) => {
 });
 
 
-app.get("/", (req, res) => {
-    res.send("hi")
-})
+
 
 
 
