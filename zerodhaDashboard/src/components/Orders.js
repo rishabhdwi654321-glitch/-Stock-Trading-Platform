@@ -27,7 +27,7 @@ import axios from "axios";
 const Orders = () => {
   let [allOrders,setallOrders] = useState([]);
      useEffect(()=>{
-         axios.get("https://zerodhabackend-m6gu.onrender.com/allOrders").then((res)=>{
+         axios.get("https://stock-trading-platform-ckbr.onrender.com/allOrders").then((res)=>{
           console.log(res)
           setallOrders(res.data)
          })

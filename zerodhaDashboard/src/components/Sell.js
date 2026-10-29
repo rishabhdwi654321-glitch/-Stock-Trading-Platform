@@ -8,7 +8,7 @@ import axios from "axios";
 const Sell = () => {
   let [SellOrders,setsellOrders] = useState([]);
      useEffect(()=>{
-         axios.get("https://zerodhabackend-m6gu.onrender.com/SellOrders").then((res)=>{
+         axios.get("https://stock-trading-platform-ckbr.onrender.com/SellOrders").then((res)=>{
           console.log(res)
           setsellOrders(res.data)
          })

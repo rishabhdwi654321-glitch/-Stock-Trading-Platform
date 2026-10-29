@@ -15,7 +15,7 @@ const Home = () => {
         navigate("/login");
       }
       const { data } = await axios.post(
-        "https://zerodhabackend-m6gu.onrender.com/",
+        "https://stock-trading-platform-ckbr.onrender.com/",
         {},
         { withCredentials: true }
       );

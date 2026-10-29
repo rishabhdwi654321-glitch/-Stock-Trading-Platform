@@ -7,7 +7,7 @@ const Positions = () => {
 const [allPositins, setallPositins] = useState([]);
 
 useEffect(()=>{
-  axios.get("https://zerodhabackend-m6gu.onrender.com/allPositions").then((res)=>{
+  axios.get("https://stock-trading-platform-ckbr.onrender.com/allPositions").then((res)=>{
     setallPositins(res.data)
   })
 },[])
