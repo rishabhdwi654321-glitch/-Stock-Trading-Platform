@@ -15,7 +15,7 @@ const Menu = () => {
 
   const handleLogout = () => {
     
-    window.location.href = "https://zerodhafrontend-cg69.onrender.com";
+    window.location.href = "https://stock-trading-platform-2-9neh.onrender.com";
   };
 
   const menuClass = "menu";
